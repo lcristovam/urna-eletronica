@@ -1,0 +1,27 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* a propriedade 'box-sizing'
+     serve para resolver a situação em uma div não pode ultrapassar 
+     seu tamanho definido, mesmo se houver um padding dentro dela */
+}
+
+
+
+@import 'sass/_colors';
+
+
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family:  Arial, Helvetica, sans-serif
+    
+}
+
+
+@import 'sass/layout';
+@import 'sass/spacing';
